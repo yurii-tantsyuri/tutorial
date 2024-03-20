@@ -1,0 +1,72 @@
+body {
+    background-color: #FFFFFF;
+    color:#212121; 
+}
+.list {
+    list-style: none;
+}
+/* цвет основного текста background: #212121; */
+/* вторичный цвет background: #757575;background: rgba(117, 117, 117, 1); */
+/* акцент background: #2196F3; */
+/* вторичный фоновый цвет background: #2F303A; */
+/* Site nav*/
+.site-nav .link {
+    color:#212121;
+    
+}
+.site-nav .link:hover,
+.auth-nav .link:hover {
+    color:#2196F3;
+}
+/* Hero */
+.hero {
+    background-color: #2F303A;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero-title {
+    color: #FFFFFF;
+    width: 696px;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    margin:0 auto ;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.hero-link {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 32px;   
+}
+.section-title {
+    color: #212121;
+}
+.section-link{
+    color: #757575;
+}
+.button {
+    color: #212121;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1078px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 135px 16px;
+    
+}
+.button:hover {
+   color: #2196F3;
+}
